@@ -27,7 +27,7 @@ export default function BasicTextFields() {
         <TextField id="nameStudent" label="学生姓名" required='true' variant="outlined" />
         <TextField id="grade" label="学生年级" required='true'  variant="outlined" />
         <TextField id="course" label="报名课程" required='true'  variant="outlined" />
-        <Button className={classes.button}  variant="contained" color="primary">提 交</Button>
+        <Button type='submit' className={classes.button}  variant="contained" color="primary">提 交</Button>
       </form>
     </div>
     
