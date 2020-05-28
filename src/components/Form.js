@@ -20,14 +20,14 @@ export default function BasicTextFields() {
     <div>
       <Typography color='primary' variant='h5' align='center'>知行教育 - 在线报名表</Typography>
       {/* <Divider /> */}
-      <form name='registration' method="POST" netlify className={classes.root} autoComplete="off">
+      <form name='registration' method="post" netlify className={classes.root} autoComplete="off">
         <TextField id="nameParent" label="家长姓名" required='true'  variant="outlined" />
         <TextField id="phone" label="联系电话" variant="outlined" />
         <TextField id="wechat" label="微信" required='true'  variant="outlined" />
         <TextField id="nameStudent" label="学生姓名" required='true' variant="outlined" />
         <TextField id="grade" label="学生年级" required='true'  variant="outlined" />
         <TextField id="course" label="报名课程" required='true'  variant="outlined" />
-        <Button type="submit" className={classes.button}  variant="contained" color="primary">提 交</Button>
+        <Button className={classes.button}  variant="contained" color="primary">提 交</Button>
       </form>
     </div>
     
